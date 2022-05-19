@@ -1,0 +1,3 @@
+dramatiq: poetry run ./manage.py rundramatiq --threads 1 --processes 1
+redis: redis-server
+test: poetry run ./manage.py shell <test.py
